@@ -1,0 +1,16 @@
+{
+  "name": "bmi-calaculator",
+  "version": "1.0.0",
+  "description": "bmi calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "thejas hari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^3.7.2"
+  }
+}

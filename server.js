@@ -107,9 +107,9 @@ app.get('/', function(req,res){
         </div>
         <div class="container-2">
             <center>
-            <label class="glow" >
+            <h2 class="head1" >
                 Enter Your Information Here
-            </label>
+            </h2>
             </center>
             <div class="input">
                 
@@ -174,7 +174,7 @@ app.get('/', function(req,res){
         
         </script>
         <div  style="color: white; background-color: rgba(22, 21, 21, 0.699); padding-top: 20px; " id="container-4" class="container-4">
-           <center><span class="glow">So What Next?</span></center> <br> <br>
+           <center><h1 class="head1">So What Next?</h1></center> <br> <br>
            <center> <span style="color: white; font-size: 35px;" >Explore Some Healthy Routines</span></center> <br> <br>
            <br><br>
             <div class="nav-container">

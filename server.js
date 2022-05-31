@@ -77,7 +77,7 @@ app.get('/', function(req,res){
     <br>
         <div class="about-bmi">    
         <p>
-            <h1 class="head" >Why BMI?</h1> 
+            <h1 class="glow" >Why BMI?</h1> 
             Body mass index (BMI) is a value derived from the mass (weight) 
             and height of a person. The BMI is defined as the body mass divided
              by the square of the body height, and is expressed in units of 
@@ -107,7 +107,7 @@ app.get('/', function(req,res){
         </div>
         <div class="container-2">
             <center>
-            <h2 class="head1" >
+            <h2 class="glow" >
                 Enter Your Information Here
             </h2>
             </center>
@@ -174,7 +174,7 @@ app.get('/', function(req,res){
         
         </script>
         <div  style="color: white; background-color: rgba(22, 21, 21, 0.699); padding-top: 20px; " id="container-4" class="container-4">
-           <center><h1 class="head1">So What Next?</h1></center> <br> <br>
+           <center><h1 class="glow">So What Next?</h1></center> <br> <br>
            <center> <span style="color: white; font-size: 35px;" >Explore Some Healthy Routines</span></center> <br> <br>
            <br><br>
             <div class="nav-container">

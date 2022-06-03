@@ -51,11 +51,11 @@ YouTube
              <div class="logo">
              </div>
              <ul class="nav-links">
-                 <li class="list" ><a class="link" href="lose.html">WeightLoss</a></li>
-                 <li class="list" ><a class="link" href="gain.html">WeightGain</a></li>
-                 <li class="list" ><a class="link" href="fit.html">Stay Fit At Home</a></li>
-                 <li class="list" ><a class="link" href="basicexcercises.html">Basic Excercises</a></li>
-                 <li class="list" ><a class="link" href="about us.html">About Us</a></li>
+                 <li class="list" ><a class="link" href="/lose">WeightLoss</a></li>
+                 <li class="list" ><a class="link" href="/gain">WeightGain</a></li>
+                 <li class="list" ><a class="link" href="/fit">Stay Fit At Home</a></li>
+                 <li class="list" ><a class="link" href="/basicexcercises">Basic Excercises</a></li>
+                 <li class="list" ><a class="link" href="/about">About Us</a></li>
              </ul>
              <div class="arrow">
                  <div class="line1"></div>
@@ -69,18 +69,18 @@ YouTube
      </div>
  </div>
 
-<div class="review">
-	<fieldset style="margin: 10px; border: 3px solid black;  border-radius: 20px; background-color: rgba(64, 89, 97, 0.432); ">
+ <div class="review">
+	<fieldset style="margin: 10px; border: 3px solid black;  border-radius: 20px; background-color: rgba(173, 216, 230, 0.432); ">
 	<legend style="border:1px solid black; border-radius:20px; padding:10px;  "; >Your Comments About Our Page</legend>
-	<form action="submit">
+	<form action="/submit" method="POST" >
 	  <br>
 	<label style="font-size: 20px;border-radius: 5px;"  >Enter Your Name</label> <br>
-	<input type="text" style="font-size: 15px;" placeholder="Your Name" autocomplete="off"></input> <br> <br>
+	<input type="text" style="font-size: 15px;" name="name" placeholder="Your Name" autocomplete="off"></input> <br> <br>
 	<label style="font-size: 20px;border-radius: 5px;" >Enter Your Email</label><br>
-	<input placeholder="Your Email" type="email" autocomplete="off" style="font-size: 15px;"></input> <br> <br>
+	<input placeholder="Your Email" type="email" name="email" autocomplete="off" style="font-size: 15px;"></input> <br> <br>
 	<label for="text" style="font-size: 20px;" >Drop Your Comments:</label> <br> 
-	<textarea style="border-radius: 5px; width: 100%; " placeholder="Your Comments"  rows="10"  cols="170" class="txtarea" ></textarea> <br> <br>
-	<center><button class="buttgain" type="button">Submit</button></center>
+	<textarea style="border-radius: 5px; width: 100%; " name="review" placeholder="Your Comments"  rows="10"  cols="170" class="txtarea" ></textarea> <br> <br>
+	<center><button class="buttgain" type="submit">Submit</button></center>
 	</fieldset>
 	</form>
 	<br>

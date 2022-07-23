@@ -14,8 +14,7 @@ let db= null;
 
 app.use(bodyparser.urlencoded({extended:true}))
 
-let a = `mongodb+srv://Thejashari:letmegoin@bmi.oj1kl.mongodb.net/Data?retryWrites=true&w=majority`
-MongoClient.connect(a,{useNewUrlParser:true,useUnifiedTopology: true }, function(err,client){
+MongoClient.connect({githidden},{useNewUrlParser:true,useUnifiedTopology: true }, function(err,client){
     if (err){
         throw err
     }
@@ -33,8 +32,6 @@ app.use(express.static(__dirname + '/css'));
 app.engine('html' , cons.swig); //using consolidates
 app.set('views' ,path1) //defining view paths
 app.set('view engine', 'html'); //defining view path as html
-
-
 
 let port= process.env.PORT
 if(port == null || port == "" ){
